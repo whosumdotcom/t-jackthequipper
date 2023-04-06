@@ -4,17 +4,36 @@
   "IdClaims": [
     {
       "Claim": "t:jackthequipper"
+    },
+    {
+      "Claim": "mdon:@jack_d@mastodon.social"
     }
   ],
-  "IdDisclaims": null,
+  "IdDisclaims": [
+    {
+      "Claim": "med:no-account"
+    },
+    {
+      "Claim": "pat:no-account"
+    },
+    {
+      "Claim": "post:no-account"
+    },
+    {
+      "Claim": "spout:no-account"
+    },
+    {
+      "Claim": "ss:no-account"
+    }
+  ],
   "Signature": {
     "Authority": "https://whosum.com",
     "PublicKey": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEApF0NC9C13limzP9H5\u002BcXoWEddOfjDdysecEWNhNxS3yCWdRJjsCpIWY3euUxIFWw9W9Zkbo1tx8YbnLVdCPd7qORelTZZR5I9IvQdsyyqZIeAuw4xk/VcK119Kme13cqhsjOtgCrdekjz5YEklZqXdZKclJMc2fqHjOfHl07lYXWmqx8FxCUjjGCkBcr4WZD/uvs0SXRACkXS01bP0Wbao1sHxyFoADHV5i8Yvg2o32Sy37DMMMOfjO8ZpqqwNKVEs04gGL\u002BnGkDqNP/6lIaTinrzCJe57qcorGcVlWGdV4nC5uMgIgqZ/7pzrCHF5WbXai3g3AObmPJ5eG8TCTsrQIDAQAB",
-    "Nonce": "2523b42f1b35141a72b2f4de",
-    "Timestamp": "2023-04-05T23:44:21Z",
-    "Signature": "3832be4857942aa7b37ad95f07b5fb6761c156d78145c419cc6d4e1c9e557e75b028f27b37e0b293dd45f567e2260824097f2459a6c27c3b32abdef8fc70783935409485ec0c8e9b7e12b4c29a14ab876bf298dcf1cad3fd40bf33c04b477092b57bd8013e27a863f0461afeae3f9c5a1cff7972dabbe6a3167e291464c8e153ead12bccc671abd71aee4b4b9f2381001cbf5ee5a4dee4959185e045f483e8db92e6b09cd723f1f4d4515dd0b870dd35d5ff35945f2f9955302a8a8c679cb6650eaa231c177b745025708b8951e264dcc785af96ad7c99e109c091e33db28ef3e3aa56f5a855a433ae93217930b41599889bc9928720ef86a472e76319c289ac"
+    "Nonce": "f578e2987d0f20b587339e03",
+    "Timestamp": "2023-04-06T00:09:23Z",
+    "Signature": "96826be782570716560767a79ff4865f29a74efb95599d3c294f7735e675afdc33c04e9f87d9ad3d095fb427e53c5fa3d65609e691027e9d322a097f417e6ff7f64acf254e7272c0c1be8a73d83966321ca267e0e1d8be3a5849743ec18342f03e75fcaa1ab4d9bc89ac2fed1f0735c3c4b61d071350f69704e33d96dd89ea17758b1b4a475c4da69791a0788a9b50ef1bf999e7d5e2db287a7de69f23dcd6c9969a4e0a06f57962690c337f064a079aa1520dc47bed4c4160eee512301fdecb014658e59df71339cede1ac494f02de2ca926bb62bc94173ea4b4e245ce37df98dbc4119fa292bdecd46448b3f6aec4317e6c1327e0b4a14f566ac2df97e4bf5"
   },
   "AgreedToTerms": true,
-  "ContentSha256": "67d3b636ea52e6dded5c8efbbabc07ed1951a874ffa26643832cccf09655a072",
-  "ContentToHash": "v1|t:jackthequipper|2023-04-05T23:44:09Z"
+  "ContentSha256": "362b1b84fef54f910a48f1ab40b62d7fa9f821bd3360d079cf1f3c631c7c1a22",
+  "ContentToHash": "v1|mdon:@jack_d@mastodon.social,med:no-account,pat:no-account,post:no-account,spout:no-account,ss:no-account,t:jackthequipper|2023-04-05T23:44:09Z"
 }
